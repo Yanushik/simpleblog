@@ -7,9 +7,13 @@ Proj7C::Application.configure do
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
+<<<<<<< HEAD
   #Disable this annoying junk! Temp fix
   config.action_dispatch.rack_cache[:verbose] = false
   
+=======
+
+>>>>>>> 903c3213788607c3709517ee654da068a2b86e68
   # Disable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = false
 
@@ -17,7 +21,11 @@ Proj7C::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
+<<<<<<< HEAD
   config.assets.compile = true
+=======
+  config.assets.compile = false
+>>>>>>> 903c3213788607c3709517ee654da068a2b86e68
 
   # Generate digests for assets URLs
   config.assets.digest = true

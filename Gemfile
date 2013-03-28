@@ -1,12 +1,21 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 gem 'rails', '3.2.13'
+=======
+gem 'rails', '3.2.1'
+>>>>>>> 903c3213788607c3709517ee654da068a2b86e68
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+<<<<<<< HEAD
 gem 'sqlite3'
 
+=======
+gem 'pg'
+#gem 'sqlite3'
+>>>>>>> 903c3213788607c3709517ee654da068a2b86e68
 
 # Gems used only for assets and not required
 # in production environments by default.
